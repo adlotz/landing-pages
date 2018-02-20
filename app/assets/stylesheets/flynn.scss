@@ -1,18 +1,73 @@
-.wrapper {
+.flynnp {
+  padding:  0 20%;
   display: flex;  
   flex-flow: row wrap;
   font-weight: bold;
   text-align: center;
+  font-family: "League Spartan", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-.wrapper > * {
+.flynnp > * {
   padding: 10px;
   flex: 1 100%;
 }
 
-.header {
-  /*background: tomato;*/
+.flynnp p, .flynnp a
+{
+  text-decoration: none;
+  font-weight: bold;
+  color: #1bb45e;
 }
+
+nav.fheader {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 13px;
+  padding: 0 30px;      /* marge intérieure */
+  font-weight: bold;
+  color: #1bb45e;
+}
+
+nav.fheader ul
+ {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav.fheader li
+{
+  margin-left: 23px;
+}
+
+nav.navmid {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 13px;
+  padding: 0 30px;      /* marge intérieure */
+}
+
+nav.navmid ul
+ {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav.navmid li
+{
+  margin-left: 23px;
+}
+
+
+
+
 
 .footer {
   background: lightgreen;

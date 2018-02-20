@@ -1,16 +1,18 @@
- body, html {
+html{
     height: 100%;
+
 }
 
 
 .page
 {	
-	height: 100%;
-	width: 100%;
 	background-image: asset-data-url('fond.jpeg');
 	background-size: cover;
 	background-blend-mode: color-burn;
 	background-color: rgba(0, 0, 100, 0.5);
+
+	height: 100%;
+	width: 100%;
 }
 
 .all
@@ -79,12 +81,12 @@ header li {
 
 }
 
-nav
+nav.titre
 {
   padding: 0 30px;      /* marge intérieure */
 }
 
-nav ul
+nav.titre ul
 {
 	align-items: center;
   	display: flex;
@@ -92,7 +94,7 @@ nav ul
   	justify-content: flex-end;
 }
 
-nav li 
+nav.titre li 
 {
   	margin-left: 10px;
 }
