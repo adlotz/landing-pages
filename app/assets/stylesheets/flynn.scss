@@ -42,6 +42,15 @@ nav.fheader li
 {
   margin-left: 23px;
 }
+nav.fheader li:hover 
+{
+      border: transparent;
+      border-width: 5%;
+      background-color: #C2C2C2;
+      color: white;
+      padding-top: 25px
+}
+
 
 nav.navmid {
 
@@ -65,35 +74,15 @@ nav.navmid li
   margin-left: 23px;
 }
 
+a.btntry {
+  color: white;
+  margin: 15px 15px 0 20px;
+  display: inline-block;
+  border: 10px solid #28B361;
+  background-color: #28B361;
+  border-radius: 25px;
+  padding: 5px 15px 5px 15px;
+  font-size:18px;
+  font-weight: 800;
+  }
 
-
-
-
-.footer {
-  background: lightgreen;
-}
-
-.main {
-  text-align: left;
-  background: deepskyblue;
-}
-
-.aside-1 {
-  background: gold;
-}
-
-.aside-2 {
-  background: hotpink;
-}
-
-@media all and (min-width: 600px) {
-  .aside { flex: 1 auto; }
-}
-
-@media all and (min-width: 800px) {
-  .main    { flex: 3 0px; }
-  .aside-1 { order: 1; } 
-  .main    { order: 2; }
-  .aside-2 { order: 3; }
-  .footer  { order: 4; }
-}
